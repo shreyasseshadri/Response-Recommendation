@@ -1,3 +1,7 @@
+'''
+    Pre Processor for cleaning data and making TF-Idf vectors and Count Vectors
+    requires argument - Input data csv location
+'''
 import pandas as pd
 import copy
 import sys
