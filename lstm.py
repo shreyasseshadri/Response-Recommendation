@@ -1,5 +1,6 @@
 '''
     This is the approach that uses two LSTMs on Tf-idf vectors to get the most similiar response
+    requires argument - Cross Validation data
 '''
 
 import sys
