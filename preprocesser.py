@@ -123,7 +123,7 @@ def func(string):
     return numbers+emails
 
 # Make a csv file of processed query and response
-pd.Dataframe({'Queries':Contents,'Responses':Responses}).to_csv("processed.csv",index=False)
+pd.DataFrame({'Queries':Contents,'Responses':Responses}).to_csv("processed.csv",index=False)
 
 # Making a corpus of all words in the Query and responses
 doc=Contents+Responses
